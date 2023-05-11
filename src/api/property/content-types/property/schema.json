@@ -61,6 +61,15 @@
     },
     "price": {
       "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
     }
   }
 }
